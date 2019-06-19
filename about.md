@@ -15,7 +15,7 @@ menu:
     weight: 3
   navigation:
     identifier: _about
-    weight: 3
+    weight: 5
 published: false
 
 ---
