@@ -1,4 +1,17 @@
 ---
 label: My template
 hide_body: false
-fields: []
+fields:
+- name: this_is_text_area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: This is text area
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
